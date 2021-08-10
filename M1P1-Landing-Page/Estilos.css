@@ -1,0 +1,73 @@
+body{
+    background-color:whitesmoke;
+}
+
+.vinculos{
+    list-style: none;
+    background-color: plum;
+    width: 90%;
+    max-width: 1000px;
+    font-size: 25px;
+    margin: auto; 
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.vinculos li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    display: block;
+    }
+ .vinculos li a:hover{
+     background-color: white;
+     cursor: pointer;
+ }   
+
+.vinculos li{
+    display: inline-block;
+    
+}
+
+h2{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 40px;
+    color: violet;
+    margin-left: 250px;
+
+}
+#nt{
+    font-size: 25px;
+    color: violet;
+    text-align: right;
+    margin-right: 250px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.Slogan{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: violet;
+    font-weight: bold;
+    
+}
+.Menu{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: violet;
+}
+.PHM{
+    display: flex;
+    justify-content: center;
+}
+
