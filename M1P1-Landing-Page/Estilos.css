@@ -12,18 +12,19 @@ body{
     font-family: cursive;
     font-weight: bold;
     text-align: center;
-    
+    display: block;
+   
 }
 
-.vinculos li a{
-    text-decoration: none;
+.vinculos a{
     color: whitesmoke;
     padding: 20px;
-    display: block;
+    text-decoration: none;
+    
     
     
     }
- .vinculos li a:hover{
+ .vinculos a:hover{
      background-color: white;
      cursor: pointer;
  }   
@@ -50,7 +51,7 @@ body{
 }
 .Slogan{
     display: flex;
-    flex-direction: end;
+    
     font-family: fantasy;
     color: violet;
     font-weight: bold;
