@@ -5,8 +5,8 @@ body{
 .vinculos{
     list-style: none;
     background-color: plum;
-    width: 90%;
-    max-width: 1000px;
+    width: 95%;
+    max-width: 95%;
     font-size: 25px;
     margin: auto; 
     font-family: cursive;
@@ -20,6 +20,8 @@ body{
     color: whitesmoke;
     padding: 20px;
     display: block;
+    
+    
     }
  .vinculos li a:hover{
      background-color: white;
@@ -31,19 +33,15 @@ body{
     
 }
 
-h2{
-    font-family: cursive;
-    font-weight: 500;
-    font-size: 40px;
-    color: violet;
-    margin-left: 250px;
 
-}
-#nt{
-    font-size: 25px;
-    color: violet;
-    text-align: right;
-    margin-right: 250px;
+
+.ntt{
+    display: flex;
+    justify-content: right;
+    color: pink;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: bold;
 }
 
 .logo{
@@ -52,10 +50,11 @@ h2{
 }
 .Slogan{
     display: flex;
-    justify-content: center;
+    flex-direction: end;
     font-family: fantasy;
     color: violet;
     font-weight: bold;
+    margin: auto;
     
 }
 .Menu{
@@ -71,3 +70,30 @@ h2{
     justify-content: center;
 }
 
+#LFS{
+    display: flex;
+    justify-content: center;
+    
+    margin-right: 50px;
+    font-family: cursive;
+    font-size: 40px;
+    color: violet;
+    margin-left: 50px; 
+}
+
+.mb-3{
+    padding-top: 50px;
+    margin-inline: 300px;
+    padding: 10px;
+    display: flex;
+    padding-block: 10px;
+}
+
+.ff-1{
+    color: plum;
+    background-color: purple;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
