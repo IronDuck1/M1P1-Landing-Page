@@ -27,6 +27,8 @@ body{
  .vinculos a:hover{
      background-color: white;
      cursor: pointer;
+     font-size: 30px;
+     color:purple;
  }   
 
 .vinculos li{
@@ -34,15 +36,12 @@ body{
     
 }
 
-
-
 .ntt{
-    display: flex;
-    justify-content: right;
     color: pink;
     font-size: 30px;
     font-family: cursive;
     font-style: bold;
+    margin-left: 1050px;
 }
 
 .logo{
@@ -55,7 +54,7 @@ body{
     font-family: fantasy;
     color: violet;
     font-weight: bold;
-    margin: auto;
+    margin-left: 500px;
     
 }
 .Menu{
@@ -69,17 +68,19 @@ body{
 .PHM{
     display: flex;
     justify-content: center;
+    
+    
+}
+.PHM:hover {
+    
 }
 
 #LFS{
-    display: flex;
-    justify-content: center;
-    
     margin-right: 50px;
     font-family: cursive;
     font-size: 40px;
     color: violet;
-    margin-left: 50px; 
+    margin-left: 600px; 
 }
 
 .mb-3{
@@ -97,4 +98,53 @@ body{
     margin: auto;
     display: flex;
     justify-content: center;
+}
+.enviar{
+    margin-left: 1530px;
+}
+.enviar:hover{
+    size: 140px;
+}
+
+#Galeria {
+    width: 95%;
+    max-width: 95%;
+    margin: auto;
+    background: purple;
+    font-size: 30px; text-align: center;
+    color: white;
+    
+    
+}
+
+.Containers > .C1 .C2 {
+    background-color:aqua ;
+   
+}
+
+.C1 > img {
+    width: 400px; 
+    height: 400px;
+ 
+
+}
+
+.C1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+
+.C2 > img {
+    width: 400px; 
+    height: 400px;
+
+}
+
+.C2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
 }
